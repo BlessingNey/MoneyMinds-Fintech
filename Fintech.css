@@ -1,0 +1,523 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Basic styles for the body */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Header styles */
+  header {
+    background-color:whitesmoke;
+    color: black;
+    padding: 20px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .tiny-bluey{
+color: navy;
+/* background-color:rgb(36, 147, 216); */
+text-align: center;
+font-weight: bold;
+font-family: Arial, Helvetica, sans-serif;
+
+  }
+/* .gg{
+    color: black; 
+  }  */
+.nav-links{
+/* text-align: justify; */
+font-weight: bold;
+font-family:Arial, Helvetica, sans-serif;
+color: black;
+display:flexbox;
+gap: 30px;
+  }
+.nav-links{
+  text-align: justify;
+font-weight: bold;
+font-family:Arial, Helvetica, sans-serif;
+color: black;
+}
+.gg{
+  color: navy;
+  text-decoration-line: none;
+}
+.pic{
+  margin-top: -150px;
+}
+  .logo img {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .nav-links {
+    
+    display: flex;
+  }
+  
+  /* .nav-links li {
+    margin-right: 20px;
+  } */
+  
+  /* .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+  } */
+  
+  /* Hero section styles */
+  #hero {
+    background-image: url("hero-background.jpg");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 150px 0;
+    color: #fff;
+  }
+  .OV{
+    color: navy;
+    font-family: 'Times New Roman', Times, serif
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -10%;
+    
+  }
+  .para{
+text-align:center;
+font-size: 25px;
+font-family: 'Times New Roman', Times, serif;
+font-weight: bold;
+  }
+  .WE{
+    color: navy;
+    font-family: 'Times New Roman', Times, serif
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+  }
+  .centers{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: #333;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+  }
+  .whiteB{
+    /* size-adjust: 10px; */
+    position: absolute;
+    margin-left: 30%;
+ transform: translate()
+ 
+  }
+  .centers1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    text-shadow: #333;
+    position: absolute;
+    top: 150%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+  }
+  
+  /* Services section styles */
+  #services {
+    padding: 100px 0;
+    background-color: #f5f5f5;
+    text-align: center;
+  }
+  
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+  
+  .service img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  /* About section styles */
+  #about {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  .about-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .about-content img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact section styles */
+  #contact {
+    padding: 100px 0;
+    text-align: center;
+  }
+  
+  form input,
+  form textarea,
+  form button {
+    margin-bottom: 20px;
+    display: block;
+    width: 300px;
+    padding: 10px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+  }
+  .NewD{
+    background-color: navy;
+    height: 300px;
+    width: 90%;
+    margin-left: 80px;
+    padding: 12px;
+
+  }
+  .pfs{
+color: #f5f5f5;
+font-size: 20px;
+  }
+  .bfs{
+    color: #f5f5f5;
+    font-size: 25px;
+  }
+ul{
+  color: #f5f5f5;
+  font-size: 20px;
+}
+  .NewD{
+    display: flex;
+  }
+  .why{
+    text-align: center;
+  }
+  .Gwhy{
+    display: flex;
+    text-align: center;
+    /* text-align: right; */
+    gap: 100px;
+  }
+  h2{
+    color: navy;
+
+  }
+  p{
+    font-family: 'Times New Roman', Times, serif;
+  }
+  .top-red-line{
+    height: 5px;
+    background-color:navy;
+    }
+    .rowG{
+      display: flex;
+      gap: 20px;
+    }
+    .footerlogo{
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 200px;
+      height: 80px;
+  margin-left: 10%;
+  }
+  .finalN{
+    text-align: left;
+    margin-left: 10%;
+}
+.footerhead{
+  color: white;
+  text-transform: uppercase;
+  font-size: small;
+}
+.momentUL{
+  text-align: justify;
+  text-decoration: whitesmoke;
+}
+.myL{
+  color: whitesmoke;
+  text-decoration: none;
+}
+.foot2{
+  display: flex;
+  gap: 70px;
+}
+#contact{
+  text-align: center;
+  background-color: #c71b1b;
+
+}
+body {
+  margin:0;
+  padding:0;
+  /* font-family: sans-serif; */
+  /* background: linear-gradient(rgb(223, 226, 239), #243b55); */
+}
+
+.login-box {
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  text-align: center;
+  background: navy;
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgb(232, 208, 208);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: .5s;
+}
+
+.login-box .user-box input:focus ~ label,
+.login-box .user-box input:valid ~ label {
+  top: -20px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 12px;
+}
+
+.login-box form a {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  color: #03e9f4;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: .5s;
+  margin-top: 40px;
+  letter-spacing: 4px
+}
+
+.login-box a:hover {
+  background: #03e9f4;
+  color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #03e9f4,
+              0 0 25px #03e9f4,
+              0 0 50px #03e9f4,
+              0 0 100px #03e9f4;
+}
+
+.login-box a span {
+  position: absolute;
+  display: block;
+}
+
+.login-box a span:nth-child(1) {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: btn-anim1 1s linear infinite;
+}
+.pp{
+  display: flex;
+  gap: 20%;
+}
+.OS{
+  text-align: center;
+  margin-top: 20px;
+  padding-top: 20px;
+  font-weight: 90%;
+  margin-left: 30%;
+  color: navy;
+}
+.ff2{
+  background-color: navy;
+}
+.KDB{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+}
+.Abs{
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+.Caro{
+  width: 100%;
+  height: 150%;
+}
+.car{
+  display: flex;
+  /* gap: 5%; */
+  border-radius: 20%;
+}
+.car2{
+  margin-left: 40px;
+}
+.helo{
+  text-align: center;
+  color: navy;
+}
+.ccc{
+  background: linear-gradient(rgb(223, 226, 239), #243b55);
+  text-align: center;
+}
+.cc1{
+  font-size: large;
+  font-weight: bolder;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 20%;
+  text-align: center;
+}
+.oh{
+text-align: center;
+/* color: navy;
+font-weight: bolder;
+font-family: 'Times New Roman', Times, serif; */
+}
+.card-title1{
+  color: navy;
+  text-shadow: #243b55;
+  font-weight: bolder;
+  text-align: center;
+  
+}
+.card-text1{
+  text-align: center;
+color: whitesmoke;
+font-weight: lighter;
+font-size: 50px;
+font-family: 'Times New Roman', Times, serif;
+margin-top: 40%;
+}
+.NewD2{
+  background-color: navy;
+  height: 75px;
+  width: 90%;
+  margin-left: 80px;
+  padding: 12px;
+  
+}
+.card-title11{
+  color: white;
+  font-weight: bolder;
+  text-align: center; 
+}
+.loginB{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+  }
+  .bc{
+    background-color: rgb(152, 152, 248);
+  }
+.how{
+text-align: center;
+font-weight: bolder;
+color: #fff;
+}
+.how2{
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 30px;
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  align-items: center;
+}
+
+.search-box input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 40%;
+}
+
+.search-box button {
+  padding: 8px 16px;
+  background-color: navy;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10%;
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+ 
+}
+
+.search-box button:hover {
+  background-color: navy;
+}
+.bub{
+  margin-left: 47%;
+}
